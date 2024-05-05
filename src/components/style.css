@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Oswald:regular,bold,italic&subset=latin,latin-ext');
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}  
+
+button {
+  font-size: 8px;
+  font-weight: 800;
+  color: rgb(212, 31, 31);
+
+  padding: 6px 13px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  border: 1px solid rgb(212, 31, 31);
+  border-radius: 30px;
+}  
+
+.main-content {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.icon-container {
+  width: 102.5%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  color: dimgray;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  cursor: pointer;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 50px;
+
+  border-radius: 5px;
+  box-shadow: 0 7px 10px 0 gray;
+}
+
+.card-header {
+  text-align: center;
+
+  margin-top: 20px;
+}
+
+.item-name,
+.card-name {
+  font-size: 20px;
+  font-family: Oswald;
+  font-weight: 200;
+  font-style: normal;
+
+  text-transform: uppercase;
+}
+
+.item-color,
+.card-color {
+  font-family: Times New Roman;
+  font-weight: 200;
+}
+.card-color {
+  margin-top: 10px;
+}
+
+.card-footer {
+  width: 100%;
+
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-price,
+.card-price {
+  color:rgb(212, 31, 31);
+}
+.card-price {
+  margin-left: 30px;
+}
+
+.card-button {
+  margin-right: 30px;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: whitesmoke;
+}
+
+.item-image {
+  width: 100px;
+  height: 50px;
+}
+
+.item-button {
+  margin-right: 15px;
+}
